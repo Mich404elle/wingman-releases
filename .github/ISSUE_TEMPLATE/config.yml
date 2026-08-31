@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a bug privately / 私密报告 Bug
+    url: https://tally.so/r/aQMeVW
+    about: Use the private form. Do not post screenshots, prompts, logs, paths, source code, license data, credentials, or third-party private information here.
+  - name: Billing support / 账单支持
+    url: "mailto:support@getwingman.dev?subject=%5BBilling%5D%20Wingman%20support"
+    about: Contact Wingman privately about billing. Never send credentials or a full license value.
+  - name: Security report / 安全问题
+    url: "mailto:support@getwingman.dev?subject=%5BSecurity%5D%20Wingman%20report"
+    about: Report security concerns privately. Start with a minimal description and no sensitive attachments.
