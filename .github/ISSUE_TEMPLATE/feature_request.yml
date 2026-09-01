@@ -1,0 +1,52 @@
+name: Feature request / 功能建议
+description: Propose a public, non-sensitive improvement to Wingman / 提出不含敏感信息的公开功能建议
+title: "[Feature] "
+labels:
+  - enhancement
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Public repository / 公开仓库
+
+        This form is public. **Do not attach screenshots or include prompts, logs, file paths, source code, license data, credentials, or third-party private information.**
+
+        本表单内容公开。**请勿上传截图，也不要填写 prompt、日志、文件路径、源码、license 数据、凭证或第三方私人信息。**
+
+        To report a bug privately, use the [Wingman feedback form](https://tally.so/r/aQMeVW). For billing or security concerns, email [support@getwingman.dev](mailto:support@getwingman.dev).
+
+  - type: checkboxes
+    id: public_content_confirmation
+    attributes:
+      label: Public-content confirmation / 公开内容确认
+      options:
+        - label: I confirm this issue contains no screenshots, prompts, logs, file paths, source code, license data, credentials, or third-party private information.
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve / 要解决的问题
+      description: Describe the user problem without private project or session details.
+      placeholder: What is difficult today, and who experiences it?
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_workaround
+    attributes:
+      label: Current workaround / 当前替代方式
+      description: How do you handle this today? Leave blank if there is no workaround.
+      placeholder: Describe the current approach using only public, non-sensitive information.
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected_result
+    attributes:
+      label: Expected result / 期望结果
+      description: Describe the outcome you want, without prescribing private implementation details.
+      placeholder: What would a successful Wingman experience look like?
+    validations:
+      required: true
