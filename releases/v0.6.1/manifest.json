@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "version": "0.6.1",
+  "source": {
+    "tag": "v0.6.1",
+    "commit": "22999aa824edee124a3aa385b7d0ea034cfba2db"
+  },
+  "github": {
+    "repository": "Mich404elle/wingman-releases",
+    "tag": "v0.6.1"
+  },
+  "build": {
+    "platform": "darwin",
+    "arch": "arm64",
+    "node": "22.22.0",
+    "npm": "11.8.0",
+    "pnpm": "11.21.0",
+    "rust": "1.93.0"
+  },
+  "artifacts": [
+    {
+      "name": "Wingman_0.6.1_aarch64.dmg",
+      "url": "https://github.com/Mich404elle/wingman-releases/releases/download/v0.6.1/Wingman_0.6.1_aarch64.dmg",
+      "size": 45034337,
+      "sha256": "dd9b0b1e15d2ed5db9acc3b03101c462c1b03c466a22ae5037a033ef8e70cc5d"
+    },
+    {
+      "name": "Wingman_0.6.1_aarch64.app.tar.gz",
+      "url": "https://github.com/Mich404elle/wingman-releases/releases/download/v0.6.1/Wingman_0.6.1_aarch64.app.tar.gz",
+      "size": 39589260,
+      "sha256": "37d82d7779ff012c9407b5f581a2d7338710c89cf57cd3abc4e2388376114de0"
+    },
+    {
+      "name": "Wingman_0.6.1_aarch64.app.tar.gz.sig",
+      "url": "https://github.com/Mich404elle/wingman-releases/releases/download/v0.6.1/Wingman_0.6.1_aarch64.app.tar.gz.sig",
+      "size": 424,
+      "sha256": "90ad322cf1269cf331acb2bffa433fbb2613006870087d20d48ce74d93b38fbf"
+    }
+  ],
+  "npm": {
+    "name": "harness-wingman",
+    "version": "0.6.1",
+    "git_head": "22999aa824edee124a3aa385b7d0ea034cfba2db",
+    "tarball": "https://registry.npmjs.org/harness-wingman/-/harness-wingman-0.6.1.tgz",
+    "size": 197732,
+    "sha256": "d6c3e01b76c4139da8754fefeb1f9c6b6d63b532e524bb8bb81a217eb2710f90",
+    "integrity": "sha512-uMmfWOmXgNUkLZpcTQ6NEB7R8ZDPdiwsOOcTm2MeQLsgsGmYSHwXBfUyciWHC+pDTmd2PFFW1splWRixQbJWiQ==",
+    "shasum": "80d07aafc5638bc235bcc3be2eee1d176d4874a0"
+  }
+}
